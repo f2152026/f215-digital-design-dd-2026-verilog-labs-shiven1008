@@ -55,6 +55,7 @@ module cla4(
   and #(2) (t2_1, p1, g0);
   and #(2) (t2_0, p1, p0, cin);
   or  #(2) (c2, g1, t2_1, t2_0);
+  
 
   wire t3_2, t3_1, t3_0;
   and #(2) (t3_2, p2, g1);
